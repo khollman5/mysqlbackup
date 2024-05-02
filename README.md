@@ -22,3 +22,6 @@ If you're looking for a complete instance backup'n'restore quick solution, don't
 
 ToDo:
  - Restore script: per db, per instance, etc.
+
+**Restore:**
+For a restore scenario, from a **mysqldump** format [from here](https://gist.github.com/lon-io/9067f746cd8cce10af4c52179c7e9b7e) I've added some restore scenarios (All db's, per-DB & From Pre2Pro) in mysqldump_backup_restore.tar that work on files with the naming convention of "db_name.hostname.domain.DD-MM-YYYY_HHMM".
